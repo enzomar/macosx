@@ -1,1 +1,5 @@
 # macosx
+```bash
+brew bundle
+```
+

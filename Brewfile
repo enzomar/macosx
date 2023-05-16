@@ -5,9 +5,11 @@
 # tips
 # mas <appname> install from mac app store
 # cask <appname> install  mac UI APP
+# brew bundle
 
 tap "caskroom/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask"
 
 brew "docker"
 brew "docker-compose"
@@ -28,6 +30,8 @@ brew "yara"
 brew "tree"
 brew "youtube-dl"
 brew "virtualenv"
+cask "android-sdk"
+
 
 cask "drawio"
 cask "fork"
